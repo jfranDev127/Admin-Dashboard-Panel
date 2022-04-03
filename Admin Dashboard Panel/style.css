@@ -19,6 +19,7 @@
     --box2-color: #FFE6AC;
     --box3-color: #E7D1FC;
     --title-icon-color: #fff;
+    --green-color:#41c948;
     
     /* ====== Transition ====== */
     --tran-05: all 0.5s ease;
@@ -41,6 +42,7 @@ body.dark{
     --box2-color: #3A3B3C;
     --box3-color: #3A3B3C;
     --title-icon-color: #CCC;
+    
 }
 /* === Custom Scroll Bar CSS === */
 ::-webkit-scrollbar {
@@ -312,6 +314,7 @@ nav.close ~ .dashboard .top{
     padding: 15px 20px;
     background-color: var(--box1-color);
     transition: var(--tran-05);
+    margin-top: 10px;
 }
 .boxes .box i{
     font-size: 35px;
@@ -333,6 +336,9 @@ nav.close ~ .dashboard .top{
 }
 .boxes .box.box3{
     background-color: var(--box3-color);
+}
+.boxes .box.box4{
+    background-color: var(--green-color);
 }
 .dash-content .activity .activity-data{
     display: flex;
